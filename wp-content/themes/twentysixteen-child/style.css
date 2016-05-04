@@ -12,7 +12,75 @@
  Text Domain:  twenty-sixteen-child
 */
 
-body {
-    background-color: #FFCC00;
+body{
+    margin: 0;
+    padding:0;
+    background-color: #7A1501;
+    width: 100%;
 }
+.header-image{
+    margin-top: -66px;
+}    
+.site-header{
+    padding: 0;
+    margin-right: 25%;
+    color: black;
+    font-family: sans-serif;
+}
+
+li {
+    font-size: .9em;
+    font-weight: 700;
+}
+
+
+.entry-title{
+    display: none;
+}
+
+.main-navigation{
+    color: black;
+    text-transform: uppercase;
+    
+}
+
+.main-navigation  a:hover{
+    background-color: #f9da0c;
+    color:black;
+}
+
+h2,h3{
+    color: white;
+    background-color: #7A1501;
+    
+}
+
+.title{
+    text-transform: uppercase;
+    color: white;
+}
+
+div> .divider{
+    text-transform: uppercase;
+    color: white;
+}
+
+.site-info{
+    display: none;
+    
+}
+
+.main-page{
+    text-align: center;
+}
+
+.red {
+    background-color: #7a1501;
+    width: 100%;
+}
+
+.site-main {
+    background-color: #7a1501;
+}
+
 
