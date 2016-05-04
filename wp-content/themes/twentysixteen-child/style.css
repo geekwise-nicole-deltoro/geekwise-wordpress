@@ -83,4 +83,18 @@ div> .divider{
     background-color: #7a1501;
 }
 
+.text {
+    margin-top: 2em;
+    text-align: right;
+    font-family: "franchise";
+    line-height: 1.0;
+    font-size: 2.5em;
+}
+
+.about_main{
+    background-color: #fff;
+    width:100%;
+}
+}
+
 
