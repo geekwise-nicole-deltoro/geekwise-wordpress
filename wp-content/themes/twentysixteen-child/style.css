@@ -88,13 +88,21 @@ div> .divider{
     text-align: right;
     font-family: "franchise";
     line-height: 1.0;
-    font-size: 2.5em;
+    font-size: 2.0em;
 }
 
-.about_main{
-    background-color: #fff;
-    width:100%;
-}
+.about_content {
+    float: left;
+    width: 100%;
+    text-align: center;
 }
 
+.column-content.one-third:nth-of-type(even) {
+    border-left: solid #fff 2px;
+    border-right: solid #fff 2px;
+    
+}
 
+.hr{
+   color: #fff 1px; 
+}
