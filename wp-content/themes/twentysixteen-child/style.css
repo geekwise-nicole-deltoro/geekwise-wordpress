@@ -97,12 +97,7 @@ div> .divider{
     text-align: center;
 }
 
-.column-content.one-third:nth-of-type(even) {
-    border-left: solid #fff 2px;
-    border-right: solid #fff 2px;
-    
-}
-
-.hr{
-   color: #fff 1px; 
+.content-column:nth-of-type(even){
+   border-right: 1px solid white;
+   border-left: 1px solid white;
 }
