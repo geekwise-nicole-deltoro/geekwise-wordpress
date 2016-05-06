@@ -91,25 +91,33 @@ div> .divider{
     font-size: 2.0em;
 }
 
+.content-column:nth-of-type(even){
+   border-right: 1px solid white;
+   border-left: 1px solid white;
+}
+
+/*about page */
+
 .about_content {
     float: left;
     width: 100%;
     text-align: center;
 }
 
-.content-column:nth-of-type(even){
-   border-right: 1px solid white;
-   border-left: 1px solid white;
-}
+/* workshop page */
 
-.col-block-one {
-    color: #fff;
-    float: right;
-}
-
-.col-block-two {
-    color: # fff;
-    float: right;
-    width: 50%;
+.main-body {
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
     
 }
+
+.section{
+    background-color: #fff;
+    font-family: sans-serif;
+    color: #000;
+}
+
+
