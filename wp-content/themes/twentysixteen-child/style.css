@@ -101,3 +101,15 @@ div> .divider{
    border-right: 1px solid white;
    border-left: 1px solid white;
 }
+
+.col-block-one {
+    color: #fff;
+    float: right;
+}
+
+.col-block-two {
+    color: # fff;
+    float: right;
+    width: 50%;
+    
+}
