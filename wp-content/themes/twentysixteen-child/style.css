@@ -104,6 +104,36 @@ div> .divider{
     text-align: center;
 }
 
+/*end of about page */
+
+/* courses page */
+
+.none {
+    border: none;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+.border {
+    border-bottom-color:  solid grey;
+    box-sizing: border-box;
+    
+}
+
+
+.yellow-button {
+    box-sizing: border-box;
+    background-color: yellow;
+    text-align: center;
+    height: 140px;
+    width: 163px;
+    line-height: 5em;
+    color: #000000;
+}
+
+/* END OF COURSE */
+
 /* workshop page */
 
 .main-body {
@@ -119,7 +149,9 @@ div> .divider{
     font-family: sans-serif;
     color: #000;
 }
-
+  
+/* END OF WORKSHOP PAGE */  
+  
 /* cohort page */
 
 .blurb-two{
