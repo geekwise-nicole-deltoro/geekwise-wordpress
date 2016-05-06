@@ -79,7 +79,7 @@ div> .divider{
     width: 100%;
 }
 
-.site-main {
+.site-main-home {
     background-color: #7a1501;
 }
 
@@ -108,11 +108,8 @@ div> .divider{
 
 /* courses page */
 
-.none {
-    border: none;
-    text-align: center;
-    box-sizing: border-box;
-    
+.intro {
+    list-style-type: none;
 }
 
 .border {
@@ -130,6 +127,8 @@ div> .divider{
     width: 163px;
     line-height: 5em;
     color: #000000;
+    border-radius: 10px;
+    
 }
 
 /* END OF COURSE */
