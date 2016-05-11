@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/courses.css">
+    <link href="<?php echo get_template_directory_uri(); ?>/courses.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="http://geekwiseacademy.com/img/geekwise-favicon.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <title>Geekwise Academy</title>

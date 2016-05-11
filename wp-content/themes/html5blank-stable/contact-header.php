@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/contact.css">
+    <link href="<?php echo get_template_directory_uri(); ?>/contact.css" rel="stylesheet">
     <title>Geekwise Contact</title>
 </head>
 <body>

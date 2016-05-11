@@ -1,34 +1,7 @@
 <?php /* Template Name: courses */ ?>
 <?php get_header('courses'); ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/courses.css">
-    <link rel="icon" type="image/png" href="http://geekwiseacademy.com/img/geekwise-favicon.png">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <title>Geekwise Academy</title>
-</head>
-<body>
-  <main>
-   <div class="top">
-     <li class="list"><i class="fa fa-bars"></i></li>
-      <li class="none"><a href="index.html"><img src="http://i.imgur.com/LAA3RoI.png" alt="geekwise"></a></li>
-      <nav>
-       <ul>
-           <li><a href="about.html">about</a></li>
-           <li class="yellow"><a href="courses.html">courses</a></li>
-           <li><a href="workshops.html">workshops</a></li>
-           <li><a href="cohort.html">cohort</a></li>
-           <li><a href="team.html">team</a></li>
-           <li><a href="contact.html">contact</a></li>
-           <li class="active"><a href="signup.html">signup</a></li>
-       </ul>
-       </nav>
-       <h5 class="fluff">NO FLUFF. WE TEACH SKILLS THAT YOU CAN USE TO MAKE MONEY.</h5>
-      </div>
-     
+
        <section>
                 
           <p>Geekwise Academy Courses are super-fast-paced and specifically designed to ensure that you’re learning what we’re teaching. Each course begins with a crash course in “How to Geekwise,” which will give you strategies for getting every ounce of benefit you can out of your Geekwise Academy experience. Geekwise Academy Courses deploy a social learning process that is intended to provide you with workplace communication training to go alongside the technology skill you signed up for. Courses include regular assessments to evaluate your progress and to make sure no one gets left behind. Finally, each course wraps up with a final project that is actual real world work</p>
