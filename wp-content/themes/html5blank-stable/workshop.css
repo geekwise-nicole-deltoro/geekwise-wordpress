@@ -1,0 +1,109 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+     background-image: url(http://i.imgur.com/YZOVy0w.png);
+    background-position:top right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+main{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+.none >a:hover{
+    
+   background-color:#7a1501;
+}
+.fluff{
+    margin: 30px;
+    color: white;
+}
+.top{
+    background-color: #7a1501;
+    margin:0;
+    padding: 0;
+}
+.yellow> a {
+    color:#f9da0c;
+}
+nav{
+    height:5rem;
+    width:100%;
+    display:block;
+}
+ul{
+    display:inline-block;
+    list-style:none;
+    line-height:1rem;
+    color: white;
+}
+li{
+    padding:1rem;
+    display:inline;
+    float:left;
+    height:1rem;
+    font-size:1rem;
+    text-transform:uppercase;
+}
+.active{
+    
+    background-color: #f9da0c;
+
+}
+.active > a{
+    color:#7a1501;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: #f9da0c;
+}
+.fa{
+    visibility: hidden;
+}
+.text{
+   margin: 30px;
+    width: 80%;
+    float: left;
+}
+footer{
+    margin-left: 450px;
+    float:left;
+    background-color:#f9da0c;
+    color:#7a1501;
+}
+@media only screen and (max-width:1000px){
+    .fa-bars{
+        visibility: visible;
+        color: gray;
+    }
+    body{
+        background-image: none;
+    }
+    .list{
+        float: right;
+    width:8%;
+    height: auto;
+    font-size: 40px;
+    border: lightgrey solid .1rem;
+    border-radius: .5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    visibility: visible;
+        
+    }
+    
+    ul> li{
+        visibility: hidden;
+    }

@@ -1,9 +1,9 @@
 <?php /* Template Name: home */ ?>
 <?php get_header(); ?>
 
-
-
-             <main>
+<body>
+    
+ <main>
 
 <div class="geekwise">
     <span><img src="http://i.imgur.com/p8H5Xv7.jpg" alt="welcome to geekwise academy"></span></div>
@@ -22,4 +22,4 @@
   </main>
   
 </body>
-</html>
+

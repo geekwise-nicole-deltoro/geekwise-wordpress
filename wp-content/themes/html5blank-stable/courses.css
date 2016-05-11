@@ -1,0 +1,156 @@
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+     background-image: url(http://i.imgur.com/YZOVy0w.png);
+    background-position:top right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+
+}
+main{
+    width:100%;
+}
+.none >a:hover{
+    
+   background-color:#7a1501;
+}
+.fluff{
+    color: white;
+    margin:30px;
+}
+.top{
+    background-color: #7a1501;
+    margin:0;
+    padding: 0;
+}
+.yellow> a {
+    color:#f9da0c;
+}
+nav{
+    height:5rem;
+    width:100%;
+    display:block;
+}
+ul{
+    display:inline-block;
+    list-style:none;
+    line-height:1rem;
+    color: white;
+}
+li{
+    padding:1rem;
+    display:inline;
+    float:left;
+    height:1rem;
+    font-size:1rem;
+    text-transform:uppercase;
+}
+.active{
+    
+    background-color: #f9da0c;
+
+}
+.active > a{
+    color:#7a1501;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: #f9da0c;
+}
+.fa{
+    visibility: hidden;
+}
+.enroll{
+    background-color:#f9da0c;
+    
+    text-transform: uppercase;
+}
+.enroll_sign{
+    padding: 10px;
+    color: #7a1501;
+}
+p{
+    position: relative;
+    top:-120px;
+    padding: 30px;
+}
+    
+.top_table{
+    border-bottom: 1px solid black;
+}
+
+.lesson{
+    padding: 20px;
+    font-size: 14px;
+}
+section{
+    padding: 80px;
+    width: 80%;
+}
+footer{
+    margin-left: 450px;
+    float:left;
+    padding: 20px;
+    height: 15px;
+    background-color:#f9da0c;
+    color:#7a1501;
+}
+
+@media only screen and (max-width:900px){
+    .fa{
+        visibility: visible;
+        color: gray;
+    }
+    .list{
+    width: auto;
+    height: auto;
+    font-size: 28px;
+    border: lightgrey solid .1rem;
+    border-radius: .5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    visibility: visible;
+        
+    }
+    
+    li{
+        visibility: hidden;
+    
+}
+
+@media only screen and (max-width:480px){
+    body{ 
+        background-image: none;
+    }
+    p{
+        font-size: 15px;
+        
+    } 
+    .geekwise{
+        height: 500px;
+    }
+    span{
+
+        width: 50%;
+    }
+    .active{
+        position: relative;
+        top:-160px;
+        margin-left: 200px;
+        visibility: visible;
+    }
+    .none{
+        visibility: visible;
+    }
+
+    
+}

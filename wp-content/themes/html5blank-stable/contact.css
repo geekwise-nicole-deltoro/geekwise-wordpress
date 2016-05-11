@@ -1,0 +1,166 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+     background-image: url(http://i.imgur.com/0sDOr0M.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+.none{
+    background-color: #7a1501;
+}
+.none >a:hover{
+    
+   background-color:#7a1501;
+}
+.top{
+    
+    background-color: #7a1501;
+    margin:0;
+    padding: 0;
+}
+.yellow>a {
+    
+    color: #f9da0c;
+}
+.yellow>a:hover{
+    background-color: #7a1501;
+    
+}
+nav{
+
+   text-align:center;
+    height:5rem;
+    width:100%;
+    display:block;
+}
+ul{
+    display:inline-block;
+    list-style:none;
+    line-height:1rem;
+}
+li{
+    padding:1rem;
+    display:inline;
+    float:left;
+    height:1rem;
+    font-size:1rem;
+    text-transform:uppercase;
+}
+.active{
+    
+    background-color: #f9da0c;
+
+}
+.active > a{
+    color:#7a1501;
+}
+
+a{
+    
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: #f9da0c;
+}
+.email{
+    color: #7a1501;
+    font-style: italic;
+    font-size: 15px;
+}
+.contact{ 
+    font-family: "franchise";
+    font-size: 1.2em;
+    text-align: center;
+    width: 180px;
+    height: 200px;
+    position: relative;
+    top:145px;
+    background-color: white;
+    margin: -20px auto;
+}
+@media only screen and (max-width:1021px){
+    body{
+        background-size: cover;
+    }
+   .active{
+        position: relative;
+        top:-160px;
+        margin-left: 200px;
+        visibility: visible;
+    }
+    .none{
+        visibility: visible;
+    }
+}
+@media only screen and (max-width:900px){
+    .fa{
+        visibility: visible;
+        color: white;
+    }
+    .list{
+        visibility: visible;
+        color: white;
+    }
+    .active{
+        position: relative;
+        top:-160px;
+        margin-left: 200px;
+        visibility: visible;
+    }
+    .none{
+        visibility: visible;
+    }
+    .list{
+        float: right;
+    width: auto;
+    height: auto;
+    font-size: 28px;
+    border: white solid .1rem;
+    border-radius: .5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    visibility: visible;
+        
+    }
+    
+    li{
+        visibility: hidden;
+    }
+    
+}
+
+@media only screen and (max-width:480px){
+     .fa{
+        visibility: visible;
+        color: gray;
+    }
+    
+    .list{
+    
+    width: auto;
+    height: auto;
+    font-size: 28px;
+    border: white solid .1rem;
+    border-radius: .5rem;
+    padding-left: 20px;
+    padding-right: 10px;
+    visibility: visible;
+        
+    }
+    
+    li{
+        visibility: hidden;
+    }
+    body{
+        background-size:cover;
+    }
+   
+}

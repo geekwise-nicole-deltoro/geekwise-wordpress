@@ -1,5 +1,4 @@
-<?php /* Template Name: workshops */ ?>
-<?php get_header('workshops'); ?>
+
 
 <!--                text content under navbar                 -->              
 <h5 class="fluff">NO FLUFF. WE TEACH SKILLS THAT YOU CAN USE TO MAKE MONEY.</h5>

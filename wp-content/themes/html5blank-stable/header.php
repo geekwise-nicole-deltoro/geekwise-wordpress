@@ -25,16 +25,9 @@
 	</head>
 	<body <?php body_class(); ?>>
 		
-	
-
-         
-
 		<!-- wrapper -->
-		<div class="wrapper">
-
 		
-
- <header id="try" class="top">
+   <header id="try" class="top">
                <label class="fa fa-bars list" for="tiff"></label>
                   <input type="checkbox" id="tiff">
                       
@@ -50,4 +43,3 @@
          </ul> 
        </nav>
         </header>
-				
