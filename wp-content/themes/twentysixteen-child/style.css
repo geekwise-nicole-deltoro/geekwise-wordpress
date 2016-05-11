@@ -1,160 +1,224 @@
-/*
- Theme Name:   Twenty Sixteen Child
- Theme URI:    http://example.com/twenty-sixteen-child/
- Description:  Twenty Sixteen Child Theme
- Author:       Geekwise Academy
- Author URI:   http://example.com
- Template:     twentysixteen
- Version:      1.2
- License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
- Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  twenty-sixteen-child
-*/
-
+html,body{
+    margin: 0;
+    padding: 0;
+    
+}
 body{
     margin: 0;
-    padding:0;
-    background-color: #7A1501;
-    width: 100%;
-}
-.header-image{
-    margin-top: -66px;
-}    
-.site-header{
     padding: 0;
-    margin-right: 25%;
-    color: black;
-    font-family: sans-serif;
+}
+.top{
+    margin: 20px;
+    padding: 0;
 }
 
-li {
-    font-size: .9em;
-    font-weight: 700;
+nav{
+   text-align:center;
+    height:5rem;
+    width:100%;
+    display:block;
+}
+ul{
+    display:inline-block;
+    list-style:none;
+    line-height:1rem;
+}
+
+li{
+    padding:1rem;
+    display:inline;
+    float:left;
+    height:1rem;
+    font-size:1rem;
+    text-transform:uppercase;
 }
 
 
-.entry-title{
-    display: none;
-}
-
-.main-navigation{
-    color: black;
-    text-transform: uppercase;
+.active{
     
-}
-
-.main-navigation  a:hover{
     background-color: #f9da0c;
-    color:black;
+
 }
 
-h2,h3{
-    color: white;
-    background-color: #7A1501;
+
+.active > a{
+    color:#7a1501;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    background-color: #f9da0c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     
 }
 
-.title{
-    text-transform: uppercase;
-    color: white;
-}
-
-div> .divider{
-    text-transform: uppercase;
-    color: white;
-}
-
-.site-info{
-    display: none;
-    
-}
-
-.main-page{
+.geekwise{
+    position: relative;
+    top:30padding-top: 
+    max-width: 100%;
+    height: auto;
     text-align: center;
 }
 
-.red {
-    background-color: #7a1501;
-    width: 100%;
-}
 
-.site-main-home {
-    background-color: #7a1501;
-}
-
-.text {
-    margin-top: 2em;
-    text-align: right;
+h2{
+   position: relative;
+    top:30px;
     font-family: "franchise";
-    line-height: 1.0;
     font-size: 2.0em;
+    text-align: center;
+    margin: 40px auto 0px auto;
+    color: white;
+    text-transform: uppercase;
 }
 
-.content-column:nth-of-type(even){
-   border-right: 1px solid white;
-   border-left: 1px solid white;
+h3{
+    position: relative;
+    top:30px;
+    font-family:"ciria";
+    font-size: 2.0em;
+    font-weight:100;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-weight: thin;
+    text-transform: lowercase;
 }
 
-/*about page */
 
-.about_content {
+hr{
+   text-align: center;
+    width: 70%;
+}
+
+
+.bottom{
+    height:400px;
+    background-color:#7A1501; 
+}
+
+.icons{
+    position: relative;
+    top:50px;
+    display: block;
+    color: white;
     float: left;
-    width: 100%;
+    text-transform: uppercase;
     text-align: center;
+    width: calc(100%/3);
 }
 
-/*end of about page */
-
-/* courses page */
-
-.intro {
-    list-style-type: none;
+.lines{
+    border-right:solid white;
+    height: 90px;
+    position: relative;
+    top:-90px;
+    margin-left:400px;
+    width: 1px;
+    vertical-align: middle;
 }
 
-.border {
-    border-bottom-color:  solid grey;
-    box-sizing: border-box;
+.fa{
+    float: right;
+    text-align: right;
+    visibility: hidden;
+}
+
+input#tiff{
+    visibility: hidden;
+
+}
+
+#bars{
+    visibility: hidden;
+}
+
+.list{
+    float: right;
+    text-align: right;
+    visibility: hidden;
+}
+
+
+@media only screen and (max-width:1021px){
     
+    .lines{
+        margin-left:300px;
+    }
 }
 
+@media only screen and (max-width:900px){
+    .fa{
+        visibility: visible;
+        color: gray;
+    }
 
-.yellow-button {
-    box-sizing: border-box;
-    background-color: yellow;
-    text-align: center;
-    height: 140px;
-    width: 163px;
-    line-height: 5em;
-    color: #000000;
-    border-radius: 10px;
+    .list{
+    width:200px;
+    height: ;
+    font-size: 28px;
+    border: lightgrey solid .1rem;
+    border-radius: .5rem;
+    padding-left: 10px;
+    padding-right: 10px;
     
-}
-
-/* END OF COURSE */
-
-/* workshop page */
-
-.main-body {
-    height: 100vh;
-    width: 100%;
-    background-color: #fff;
-    color: #000;
+        
+    }
     
+    .bars{
+        display:none;
+    }
+    
+    #bars:checked{
+    display: block;
+    visibility: hidden;
+   
+}
+   
+    li{
+        text-align:left;
+        width: 100px;
+        color: black;
+        
+    }
+    nav{
+        
+        visibility: hidden;
+    }
+
+    .lines{
+        margin-left: 250px;
+    }
 }
 
-.section{
-    background-color: #fff;
-    font-family: sans-serif;
-    color: #000;
+@media only screen and (max-width:600px){
+    .lines{
+        margin-left:170px;
+    }
 }
-  
-/* END OF WORKSHOP PAGE */  
-  
-/* cohort page */
-
-.blurb-two{
-    background-color: #ffffff;
+@media only screen and (max-width:480px){
+    img{
+        width:100%;
+        height: auto;
+    }
+    
+    .icons{
+        margin-left: 70px;
+        width: 10%;
+        height: auto;
+        
+    }
+    .lines{
+      visibility: hidden;
+    }
 }
 
 
