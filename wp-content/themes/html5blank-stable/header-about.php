@@ -11,15 +11,15 @@
   <main>
    <div class="top">
      <li class="list"><i class="fa fa-bars"></i></li>
-     <li class="none"><a href="index.html"><img src="http://i.imgur.com/LAA3RoI.png" alt="geekwise"></a></li>
+     <li class="none"><a href="/index.php?page_id=25"><img src="http://i.imgur.com/LAA3RoI.png" alt="geekwise"></a></li>
       <nav>
        <ul>
-           <li class="yellow"><a href="about.html">about</a></li>
-           <li><a href="courses.html">courses</a></li>
-           <li><a href="workshops.html">workshops</a></li>
-           <li><a href="cohort.html">cohort</a></li>
-           <li><a href="team.html">team</a></li>
-           <li><a href="contact.html">contact</a></li>
+           <li class="yellow"><a href="/index.php?page_id=4">about</a></li>
+           <li><a href="/index.php?page_id=6">courses</a></li>
+           <li><a href="/index.php?page_id=8">workshops</a></li>
+           <li><a href="/index.php?page_id=10">cohort</a></li>
+           <li><a href="/index.php?page_id=14">team</a></li>
+           <li><a href="/index.php?page_id=16">contact</a></li>
        </ul>
        </nav>
       </div>
