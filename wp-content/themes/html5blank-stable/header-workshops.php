@@ -16,12 +16,12 @@
       
 <nav>
     <ul>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="courses.html">COURSES</a></li>
-        <li class="yellow"><a href="workshops.html">WORKSHOPS</a></li>
-        <li><a href="cohort.html">COHORT</a></li>
-        <li><a href="team.html">TEAM</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
+     <li class="yellow"><a href="/index.php?page_id=4">about</a></li>
+           <li><a href="/index.php?page_id=6">courses</a></li>
+           <li><a href="/index.php?page_id=8">workshops</a></li>
+           <li><a href="/index.php?page_id=10">cohort</a></li>
+           <li><a href="/index.php?page_id=14">team</a></li>
+           <li><a href="/index.php?page_id=16">contact</a></li>
         <li class="active"><a href="http://geekwiseacademy.com/signup">signup</a></li>
     </ul>
     </nav>

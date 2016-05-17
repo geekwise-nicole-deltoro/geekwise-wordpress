@@ -18,56 +18,32 @@
 <section class="courses_table" id="courses_title">
         <div class="column1" id="courses_height">
             <p>
-                <span class="courses_bold">
-                    
-                    Topic
-            
-                </span>
+                <span class="courses_bold">Topic</span>
             </p>
         </div>
         <div class="column2">
             <p>
-                <span class="courses_bold">
-                    
-                    Duration
-                    
-                </span>
+                <span class="courses_bold">Duration</span>
             </p>
         </div>
         <div class="column3">
             <p>
-                <span class="courses_bold">
-                    
-                    Day/Time
-                    
-                </span>
+                <span class="courses_bold">Day/Time</span>
             </p>
         </div>
         <div class="column4">
             <p>
-                <span class="courses_bold">
-                    
-                    Fee	
-                    
-                </span>
+                <span class="courses_bold">Fee</span>
             </p>
         </div>
         <div class="column5">
             <p>
-                <span class="courses_bold">
-                    
-                    Instructor
-                    
-                </span>
+                <span class="courses_bold">Instructor</span>
             </p>
         </div>
         <div class="column6">
             <p>
-                <span class="courses_bold">
-                    
-                    Sign-up
-                    
-                </span>
+                <span class="courses_bold">Sign-up</span>
             </p>
         </div> 
     </section>
@@ -84,8 +60,7 @@
                 <span class="sold_out">&nbsp;</span>
             <p class="courses_padding_bottom1">
                 <i>
-                    <?php the_content(); ?>
-                </i>
+                    <?php the_content(); ?></i>
             </p>
         </div>
         <div class="column2">
