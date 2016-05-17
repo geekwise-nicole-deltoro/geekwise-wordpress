@@ -4,18 +4,9 @@
 
 
 
-        <div id="workshops_fluff" class="courses_fluff">
-            <p>
-            <span></span>
-            </p>
-        </div>
+        <div id="workshops_fluff" class="courses_fluff"></div>
         
     <main id="courses_main">
-        <div>
-          <p>
-          </p>
-        </div>
-        
         
 <nav id="white_background">
 
@@ -24,8 +15,7 @@
 <p class="course-content"><?php the_content(); ?></p>
 <?php endwhile; ?>
 
-<!-- table title -->
-    <section class="courses_table" id="courses_title">
+<section class="courses_table" id="courses_title">
         <div class="column1" id="courses_height">
             <p>
                 <span class="courses_bold">
