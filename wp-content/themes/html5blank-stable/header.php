@@ -3,9 +3,8 @@
 	<head>
 		<meta charset="<?php bloginfo('charset'); ?>">
 		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
-
+        <link rel="icon" type="image/png" href="http://i.imgur.com/CmBvoI4.png"/>
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
-        <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -24,22 +23,60 @@
 
 	</head>
 	<body <?php body_class(); ?>>
-		
-		<!-- wrapper -->
-		
-   <header id="try" class="top">
-               <label class="fa fa-bars list" for="tiff"></label>
-                  <input type="checkbox" id="tiff">
+	    
+        
+    
+			<!-- header -->
+		<!--        nav bar          -->
+    
+     <header id="header-1">
+
+<!--    container for hidden button for nav bar on sm screen       -->
+             
+        <div id="label_wrap">                
+                         
+            <label id="fafa" class="fa fa-bars fa-2x" for="toggle-1"></label>
+            
+            <input type="checkbox" id="toggle-1"/>
+            
+            
+            <nav id="nav-1">
+                               
+                <ul id="list-1" class="media">
+                   
+                    <li id="home_list_item">
+                        <a href="about.html">About</a>
+                    </li>
+                    
+                    <li id="home_list_item">
+                        <a href="courses.html">Courses</a>
+                    </li>
+                    
+                    <li id="home_list_item__workshop">
+                        <a href="workshops.html">Workshops</a>
+                    </li>
+                    
+                    <li id="home_list_item">
+                        <a href="cohort.html">Cohort</a>
+                    </li>
+                    
+                    <li id="home_list_item__signup">
+                        <a href="signup.html">Signup</a>
+                    </li>
+                    
+                    <li id="home_list_item">
+                        <a href="team.html">Team</a>
+                    </li>
+                    
+                    <li id="home_list_item">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    
+                </ul>                
+                
+            </nav>    
+       
+         </div>  
                       
-        <nav id="kao">
-         <ul>
-              <li><a href="about.html">about</a></li>
-               <li><a href="courses.html">courses</a></li>
-               <li><a href="workshops.html">workshops</a></li>
-               <li><a href="cohort.html">cohort</a></li>
-               <li class="active"><a href="http://geekwiseacademy.com/signup">signup</a></li>
-               <li><a href="team.html">team</a></li>
-               <li><a href="contact.html">contact</a></li>
-         </ul> 
-       </nav>
-        </header>
+     </header>
+			<!-- /header -->
