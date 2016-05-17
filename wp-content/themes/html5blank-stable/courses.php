@@ -9,24 +9,25 @@
            <section class="section-crud">
                <table>
                    <tr class="top_table">
-                       <th id="topic">Topic</th>
-                      <th id="duration">Duration</th>
-                       <th id="time">Date/Time</th>
-                       <th id="fee">Fee</th>
-                       <th id="instructor">Instructor</th>
-                       <th id="up">SignUp</th>
+                       <th>Topic</th>
+                      <th>Duration</th>
+                       <th>Date/Time</th>
+                       <th>Fee</th>
+                       <th>Instructor</th>
+                       <th>SignUp</th>
                    </tr>
                  
-                   <?php query_posts('post_type=geekwise'); ?>
+                   <?php query_posts('post_type=geekwise_courses'); ?>
                    
                        <?php while (have_posts()) : the_post(); ?>  
                     <tr class="class_crud">
-                        <td class="topic_crud"><?php the_title(); ?><?php the_content(); ?></td>
-                       <td class="duration"><?php the_field('duration'); ?></td>
-                       <td class="time"><?php the_field('date'); ?></td>
-                       <td class="fee"><?php the_field('fee'); ?></td>
-                       <td class="instruction"><?php the_field('instructor'); ?></td>
-                        <td class="enroll"><a href="/index.php?page_id=12" class="enroll_sign"><?php the_field('signup'); ?></a></td>
+                        <td><?php the_title(); ?><?php the_content(); ?></td>
+                       <td><?php the_field('duration'); ?></td>
+                       <td><?php the_field('date'); ?></td>
+                       <td><?php the_field('fee'); ?></td>
+                       <td><?php the_field('instructor'); ?></td>
+                        <td
+                        ><a href="/index.php?page_id=12" class="enroll_sign"><?php the_field('signup'); ?></a></td>
                        <?php endwhile; ?>
                    </tr>
              

@@ -3,18 +3,13 @@ html,body{
     margin: 0;
     padding: 0;
 }
-body{
-     background-image: url(http://i.imgur.com/YZOVy0w.png);
-    background-position:top right;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
 
+.try{
+    color: #000;
 }
 
 
-main{
+.crud_course{
     width:100%;
 }
 .none >a:hover{
@@ -85,16 +80,27 @@ p{
     top:-120px;
     padding: 30px;
 }
+
+.section-crud{
+    width: 80%;
+    height: 100vh;
+}
+
+.course_info{
+    margin-top: 25%;
+    width: 80%;
+    
+}
     
 .top_table{
     border-bottom: 1px solid black;
 }
 
-.lesson{
+.class_crud{
     padding: 20px;
     font-size: 14px;
 }
-section{
+.section-crud{
     padding: 80px;
     width: 80%;
 }

@@ -4,13 +4,7 @@ html,body{
     padding: 0;
     
 }
-body{
-    background-image: url(http://geekwiseacademy.com/img/owl-team.png);
-    background-repeat: no-repeat;
-    background-position: right top;
-    margin: 0;
-    padding: 0;
-}
+
 .fa-bars{
     visibility: hidden;
 }

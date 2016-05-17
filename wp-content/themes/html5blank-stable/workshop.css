@@ -4,14 +4,7 @@ html,body{
 }
 
 
-body{
-    margin: 0;
-    padding: 0;
-     background-image: url(http://i.imgur.com/YZOVy0w.png);
-    background-position:top right;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+
 main{
     margin: 0;
     padding: 0;
