@@ -1,238 +1,327 @@
-html,body{
-    margin: 0;
+html, body{
+    margin: 0 auto;
     padding: 0;
-    
+    width: 100%;
+    height: 918px;
+    font-size: 62.5%;
+    font-family:sans-serif;
+    box-sizing: border-box;
 }
 
 body{
+    margin: 0 auto;
+    padding: 0;
     width: 100%;
     height: 100%;
+    background-color: #7a1501;
+    font-size: 1.6rem;
+    
+}
+
+/* main header wrap = logos, font awesome as button & nar bar */
+
+.header1{
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    width: 100%;
+    height: 240px;
+    background-color: #fff;
+    background-image: url(http://geekwiseacademy.com/img/owl-about.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+        
+}
+
+/*    div with sm geekwise logo   */
+
+.logo{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    height:auto;
+    
+}
+
+.logo > a{
+    margin: 2rem 0 0 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    
+}
+/* nav wrap for @media button dropdown at top of page  */
+
+.label_wrap{
+    display: flex;
+    flex: auto;
     margin: 0;
     padding: 0;
+    background-color: #fff;
+    height: auto;
+    width: auto;
+}
+
+/*  full view nav bar */
+
+.nav1{
+    display: flex;
+    flex: auto;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+
+.list1{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.list-item:nth-of-type(1){
+    order: 1;
+}
+
+.list-item:nth-of-type(2){
+    order: 2;
+}
+
+.list-item:nth-of-type(3){
+    order: 3
+}
+
+.list-item:nth-of-type(4){
+    order: 4;
+}
+
+.list-item:nth-of-type(5){
+    order: 5;
+}
+
+.list-item:nth-of-type(6){
+    order: 6;
+}
+
+
+.list-item{
+    margin: 0 auto;
+    padding: 0;
+    width: auto;
+    height: 5rem;
+    display: flex;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.6rem;
+    font-weight: bold;
+    background-color: #fff;
+    
+}
+
+
+.list-item > a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*  end of full view nar bar */
+
+
+/* sign up nav button that can be moved on the page   */
+
+.signup-box > li{
+    font-weight: normal;
+    background-color: #f9da0c;
+    
+}
+
+/* mouse over link */
+
+.list-item:hover{
+    background-color: #f9da0c;
+    cursor: pointer;
+    transition: background-color 2s ease-out;
+}
+
+/* selected link */
+
+.list-item:active{
+    background-color: #f9da0c;
+}
+
+
+.click:hover{
+    opacity: .45;
+    cursor: pointer;
+    transition: 1s fast;
+
+}
+
+.the-title{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
 }
 
 main{
+    display: block;
+    width: 100%;
+    height: 578px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.about-text{
+    display: block;
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+.text_container{
+    display: block;
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.text_area{
+    display: block;
+    width: 100%;
+    height: 50%;
     margin: 0;
     padding: 0;
-    width: 100%;
-}
-
-.top{
-  
-    margin:0;
-    padding: 0;
-}
-
-.yellow>a {
-    color: #7a1501;
-}
-
-.yellow>a:hover{
-    background-color: #7a1501;
-    
-}
-
-.none >a:hover{
-    
-   background-color:white;
-}
-
-nav{
-
-   text-align:center;
-    height:5rem;
-    width:100%;
-    display:block;
-}
-
-ul{
-    display:inline-block;
-    list-style:none;
-    line-height:1rem;
-}
-
-li{
-    padding:1rem;
-    display:inline;
-    float:left;
-    height:1rem;
-    font-size:1rem;
-    text-transform:uppercase;
-}
-
-
-.active{
-    float: left;
-    position: relative;
-    top:120px;
-    margin-left: 70px;
-    background-color: #f9da0c;
-
-}
-
-.active > a{
-   color:#7a1501;
-}
-
-.fa{
-    visibility: hidden;
-}
-
-.list{
-    visibility: hidden;
-}
-
-a{
-    
-    text-decoration: none;
-    color: black;
-}
-
-a:hover{
-    background-color: #f9da0c;
-}
-
-.section_1{
-    width:90%;
-
-}
-
-span{
-    float: left;
-    margin-left: 108px;
+    color: #fff;
+    font-size: 1.6rem;
     text-align: center;
-    position: relative;
-    top:4px;
-}
-
-h3{
-    font-size: 2.2em;
-    text-align: center;
-    float: right;
-}
-
-
-section{
-    float: left;
-    line-height: 1.4rem;
-    width: 100%;
-    height: 335px;
-    padding-left: 200px;
-    background-color: #7a1501;
-    color: white;
-    text-align: left;
-}
-article:nth-of-type(1){
-    float: left;
-    width: calc(100%/4);
-    padding: 20px;
-}
-article:nth-of-type(2){
-    float: left;
-    padding: 20px;
-    width: calc(100%/4);
-
-}
-article:nth-of-type(3){
-    float: right;
-    width: calc(100%/4);
-    padding: 20px;
-}
-article:nth-of-type(4){
-    float: right;
-    width: calc(100%/4);
+    line-height: 2.5rem;
+ 
     
 }
 
 footer{
-    float: left;
-    background-color:#f9da0c;
-    color: #7a1501;
-    width: 100%;
-    height:;
     display: block;
-    margin: 0;
-    postion: fixed;
-}
-
-#today{
-    margin-top:2em;
-    padding-top: 7px;
-    text-transform: uppercase;
-    color:#7a1501;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: yellow;
     text-align: center;
+    font-size: 2rem;
 }
 
-@media only screen and (max-width:900px){
-    .fa{
-        visibility: visible;
-        color: gray;
+/*  hide the font awesome button  */
+
+@media only screen and (min-width:870px){
+    
+    #fafa{
+        display: none;
     }
     
-    .list{
-    width: auto;
-    height: auto;
-    font-size: 28px;
-    border: lightgrey solid .1rem;
-    border-radius: .5rem;
-    padding-left: 10px;
-    padding-right: 10px;
-    visibility: visible;
-        
-    }
-    
-    li{
-        visibility: hidden;
+    input{
+        display: none;
+}
     
 }
 
-@media only screen and (max-width:480px){
-    section{
-        float:none;
-        line-height: 1.5rem;
-        padding-left: 60px;
-        height: 1200px;
-        background-color: #7a1501;
-        color: white;
-        text-align: left;
+
+
+@media only screen and (max-width:870px){
     
+.header1{
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    height: 24rem;
+    background-color: #fff
+
+}
+    
+    .nav1{
+        display: none;
     }
     
-    h3{
-        position: relative;
-        top:-200px;
-    }
-    
-    article{
-        position: relative;
-        top:-250px;
+    .label_wrap{
+        display: flex;
+        flex-flow: column;
+        margin: 0;
+        padding: 0;
+        height: auto;
+        width: 100%;
         
     }
     
-    p{  
-        
-        font-size: 15px;
-        
-    }
-    
-    .geekwise{
-        height: 500px;
-    }
-    
-    span{
-        visibility: hidden;
-    }
-    
-    .active{
-        position: relative;
-        top:-170px;
-        margin-left: 250px;
+    label{
+        display: block;
+        margin: 1rem 1.5rem 0 auto;
+        padding: 0;
+        width: auto;
+        height: 3.1rem;
+        cursor: pointer;
         visibility: visible;
+        color: #888888;
+        border: solid .1rem;
+        border-radius: .4rem;
+        opacity: .7;
+
     }
     
-    .none{
-        visibility: visible;
+    #toggle-1{
+       display: none;
+    
+}
+    
+    #toggle-1:checked~nav{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        display: flex;
+        
+        
     }
+    
+    .list1{
+        list-style: none;
+        margin: 0 auto;
+        padding: 0;
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+
+
+}
+
+
 
 
 
