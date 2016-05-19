@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="icon" type="image/png" href="http://i.imgur.com/CmBvoI4.png"/>
     <link href="<?php echo get_template_directory_uri(); ?>/about.css" rel="stylesheet">
-    <title>Geekwise Academy | Courses</title>
+    <title>Geekwise Academy | Contact</title>
 </head>
+
+    <div id="margin_top">
+        <a class="signup_link team_signup"    href="/index.php?p=12"><span>sign up</span></a>
+    </div>
+    <header class="contact_header">
        
-<!-- copied signup link and nav bar from workshops page -->
-       
-        <div id="margin_top">
-            <a class="signup_link team_signup" href="/index.php?page_id=12"><span>sign up</span></a>
-        </div>
-    <header class="contact_header" id="workshops_header">
         <nav>
             <ul>
                <div class="icon_div">
@@ -26,12 +25,8 @@
                
                <!--dropdown-->
                
-               <label for="dropdown" id="bars_label_tag">
-                   <div class="bars_div">
-                       <p class="bar_line"></p>
-                       <p class="bar_line"></p>
-                       <p class="bar_line"></p>
-                   </div>
+               <label for="dropdown">
+                <img src="images/menu.svg" id="bars">
                </label>
                <input type="checkbox" id="dropdown">
                
@@ -46,7 +41,7 @@
                     </a>
                 </li>
                 <li class="contact_courses">
-                    <a id="workshops_active" href="/index.php?page_id=6">
+                   <a href="/index.php?page_id=6">
                         <span class="contact_hover ">
                             courses
                         </span>
@@ -67,14 +62,14 @@
                     </a>
                 </li>
                 <li class="contact_team">
-                   <a href="/index.php?page_id=14">
+                    <a href="/index.php?page_id=14">
                         <span class="contact_hover contact_color">
                             team
                         </span>
                     </a>
                 </li>
                 <li class="contact_contact">
-                    <a class="contact_color" id="workshops_white_color" href="/index.php?page_id=16">
+                    <a class="contact_active contact_color" href="/index.php?page_id=16">
                         <span class="contact_hover">
                             contact
                         </span>
@@ -88,7 +83,6 @@
                     </a>
                 </li>
               </div>
-              
             </ul>
-        </nav>  
+        </nav>       
     </header> 
