@@ -160,6 +160,7 @@ main{
 }
 
 
+
 .about_what{
    width: 46%;
    float: left;
@@ -445,6 +446,7 @@ header nav ul li a span{
         background-color:#dddddd;
         cursor:pointer;
     }
+    
     input:checked + .nav_div{
         display: block;
     }
@@ -459,6 +461,19 @@ header nav ul li a span{
     #about_main{
         display: none;
 }
+
+  /* sign_up        */
+  
+  
+ .sign_middle{
+    padding:30px;
+    margin-left: 400px;
+    background-color: white;
+    width: 40%;
+    text-align: center;
+  }
+
+/* end of sign_up */
 
     /* footer section. what, how, why, and details content */
     
@@ -519,6 +534,8 @@ footer{
 /* end about page */
 
 /* begin courses page */
+
+
 
 
 #courses_main{
