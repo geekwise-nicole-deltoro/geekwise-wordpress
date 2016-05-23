@@ -19,7 +19,7 @@
            </div>
           </div>
    </main>
-   
+   <!--                not use            
    <footer class="about_footer">
               <div class="info">
                <div class="sign_up_div">
@@ -52,3 +52,29 @@
                       Why 
                    </p>
                    <p class="about_info_div_p">
+                       We need more geeks. Lots of them. And good ones. It’s no secret that software and information technology are among the fastest growing industries on the planet. Despite that truth, there simply aren’t enough technologists to keep up with the demand. Not to mention that these industries offer promising careers and have mountains of jobs that are available today. Geekwise Academy exists to fill that demand by rapidly producing high quality technologists, and then connecting those same technologists to real world opportunities.
+                     </p>
+                     
+                 <div class="info_div">
+                     
+                  
+                  
+                 </div>
+                       
+  -->                     
+                       
+                       
+                        <?php query_posts('post_type=about_us'); ?>
+                   
+                       <?php while (have_posts()) : the_post(); ?>  
+               <div class="about_what" id="about">
+                  
+
+                   <h1><?php the_title(); ?><?php the_content(); ?></h1>
+                   <p class="about"><?php the_field('what'); ?></p>
+               
+                
+               </div>
+            
+               
+              <?php endwhile; ?>
