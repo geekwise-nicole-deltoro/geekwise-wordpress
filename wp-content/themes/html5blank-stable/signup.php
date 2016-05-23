@@ -5,7 +5,7 @@
   <body>
       
       <?php /* Template Name: sign-up */ ?>
-<?php get_header( 'sign-up' ); ?>
+<?php get_header( 'sign_up' ); ?>
 
 
 <li id="sign_in_tab"><a href="#" class=" sign_tab right">Signup</a></li>
@@ -27,7 +27,7 @@
        </body>
        </html>
         
-   <!--      not use       
+     
         
    <main class="signup_main">
          
@@ -101,6 +101,6 @@
    <footer class="signup_footer"></footer>
 </body>
 
-                                                                  -->
+                                                                 
 
   
