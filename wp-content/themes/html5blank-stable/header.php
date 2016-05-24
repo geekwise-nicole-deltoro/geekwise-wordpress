@@ -5,13 +5,14 @@
 		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
         <link rel="icon" type="image/png" href="http://i.imgur.com/CmBvoI4.png"/>
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
-		
+		<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href="//db.onlinewebfonts.com/c/e5f2f90ef20309de329a7d174c3d2245?family=Franchise" rel="stylesheet" type="text/css"/>
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
         <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" /> 
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<link href='/Fonts/ciria.woff' rel='fonts.css' type='text/css'>
 		<link href="//db.onlinewebfonts.com/c/e5f2f90ef20309de329a7d174c3d2245?family=Franchise" rel="stylesheet" type="text/css"/>
-
+		
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="<?php bloginfo('description'); ?>">
 
