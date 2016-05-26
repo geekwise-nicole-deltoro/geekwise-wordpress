@@ -577,6 +577,8 @@ footer{
     line-height:1.9rem;
     text-align: center;
 }
+
+
 .courses_table p span{
     display: inline-block;
 }
@@ -1732,6 +1734,9 @@ footer{
 
 /* start of signup page */
 
+.page page-id 12 page template-default logged-in sign-up{
+    background-color: #7a1501;
+}
 #signup_header{
     background-color:#7A1501;
     display: block;

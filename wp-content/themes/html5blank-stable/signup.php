@@ -1,11 +1,11 @@
  <?php /* Template Name: signup */ ?> 
   <?php get_header('signup'); ?>
   <link href="//db.onlinewebfonts.com/c/e5f2f90ef20309de329a7d174c3d2245?family=Franchise" rel="stylesheet" type="text/css"/>
-
+  <link rel="stylesheet" href="css/signup.css">
   <body>
       
       <?php /* Template Name: sign-up */ ?>
-<?php get_header( 'sign_up' ); ?>
+<?php get_header( 'signup' ); ?>
 
 
 <li id="sign_in_tab"><a href="#" class=" sign_tab right">Signup</a></li>
