@@ -1,37 +1,90 @@
+*,
+*:after,
+*:before {
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+-webkit-font-smoothing:antialiased;
+font-smoothing:antialiased;
+text-rendering:optimizeLegibility;
+}
+
 html, body{
-    margin: 0;
-    padding: 0;
+   margin: 0 auto;
+   padding:0;
+   font-size:67.5%;
 }
+
 body{
-    width:100%;
-    background-color: #7a1501;
-}
-.board{
-    padding:30px;
-    margin-left: 400px;
-    background-color: white;
-    width: 40%;
-    text-align: center;
-}
-.bold{
-    font-weight: bold;
-    font-size: 2rem;
-}
-img{
-    position: relative;
-    top:25px;
-    margin-left: 650px;
-}
-h5{
-    border-bottom: 1px dotted gray;
+   box-sizing:border-box;
+   margin:0;
+   width:100%;
+   height:100%;
+   background-color:#7a1501;
+   text-align:center;
+   font-family:sans-serif;
 }
 
-@media only screen and (max-width:900px){
+header{
+   margin:0 auto;
+   width:5%;
+   height:11rem;
+   display:block;
+   border-color:aqua solid 2rem;
+   transform:translateY(34em);
 }
 
-@media only screen and (max-width:480px){
-    body{
-        width: auto;
-    }
-    
+#table{
+   margin:0 auto;
+   width:30%;
+   height:90%;
+   background-color:white;
+}
+
+.table_row{
+   text-align: center;
+   margin:0 auto;
+}
+#signup{
+   margin:0 auto;
+   background-color:#f9da0c;
+   width:4%;
+   height: 2rem;
+}
+
+.table_data{
+   text-align:center;
+   font-size:1.5rem;
+   border-bottom:dotted .03em;
+}
+.courses{
+   
+   margin:0 auto;
+   font-size:16px;
+   display:block;
+   padding:1em;
+   width:29%;
+   background-color:#fff;
+   
+}
+
+.title{
+   
+   margin:0 auto;
+   font-size:16px;
+   display:block;
+   padding:1em;
+   width:29%;
+   background-color:#fff;
+   
+   
+}
+   
+a{
+   width:100%;
+   height:100%;
+}
+
+pics{
+   display:block;
+   margin:0 auto;
 }

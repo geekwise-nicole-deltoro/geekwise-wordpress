@@ -2,7 +2,8 @@
   <?php get_header('signup'); ?>
   <link href="//db.onlinewebfonts.com/c/e5f2f90ef20309de329a7d174c3d2245?family=Franchise" rel="stylesheet" type="text/css"/>
   <link rel="stylesheet" href="css/signup.css">
-  <body>
+  <body id="color">
+      
       
       <?php /* Template Name: sign-up */ ?>
 <?php get_header( 'signup' ); ?>
@@ -13,7 +14,7 @@
         
                    
               <p class="sign_top">Course Selection & Enrollment</p>
-               <?php query_posts('post_type=sign_up'); ?>
+               <?php query_posts('post_type=signup'); ?>
                    
                        <?php while (have_posts()) : the_post(); ?> 
             <div class="dates">
@@ -24,10 +25,9 @@
             <div id="refund"><?php the_field('refund'); ?></div>
              <?php endwhile; ?>
        </section>
-       </body>
-       </html>
+      
         
-     
+     <!-- 
         
    <main class="signup_main">
          

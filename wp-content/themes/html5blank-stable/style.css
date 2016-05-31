@@ -176,6 +176,7 @@ header nav ul li:nth-child(7){
 }
 
 header nav ul li a{
+    margin-top: 25px;
     color:black;
     text-transform: uppercase;
     height: 100%;
@@ -229,7 +230,7 @@ footer{
     text-align: center;
     color:white;
     height:auto;
-    padding-bottom: 5rem;
+    padding-bottom: 15rem;
 }
 
 .fluff{
@@ -319,6 +320,7 @@ footer{
     display: inline-block;
     height:1.5rem;
     width:100%;
+    font-weight: 800;
 }
 
 /* start of media query, display nav bar as blocks and not inline */
