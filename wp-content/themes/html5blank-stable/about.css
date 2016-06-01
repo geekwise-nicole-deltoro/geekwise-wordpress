@@ -1040,7 +1040,7 @@ footer{
 .cohort_pictures_div{
     background-color:#ffffff;
     color:black;
-    height:100rem;
+    height:65rem;
 }
 .cohort_pic{
     text-align: center;
@@ -1061,6 +1061,7 @@ footer{
     display:inline-block;
     text-align:left;
     width:90%;
+    font-size: .75em;
 }
 
 /* added extra footer to make it look like the is a space between the cohort label and the bottom of page, but it was breaking too much so it was greyed out.  may or may not use it again. fixed it by adding margin bottom to second cohort label */
@@ -1120,14 +1121,16 @@ footer{
 .cohort_names{
     font-size:2rem;
 }
+
 .cohort_text_left{
     display:inline-block;
     text-align:left;
     width:90%;
+    font-size: 75em;
 }
 
     
-}
+
 
 /* cohort media query max width 930px, to keep owl visible */
 
@@ -1336,7 +1339,7 @@ footer{
 
 .team_footer{
     background-color:#7A1501;
-    height:40rem;
+    height:60rem;
 }
 
 #pictures_div{

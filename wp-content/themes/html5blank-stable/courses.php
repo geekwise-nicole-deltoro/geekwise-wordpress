@@ -38,6 +38,8 @@
                 </span>
             </p>
         </div>
+        
+<!--        
         <div class="column3">
             <p>
                 <span class="courses_bold">
@@ -45,6 +47,8 @@
                 </span>
             </p>
         </div>
+        
+        -->
         <div class="column4">
             <p>
                 <span class="courses_bold">
@@ -68,7 +72,7 @@
         </div> 
     </section>
         
-<!-- table 1 -->
+<!--
    
     <section class="courses_table courses_border_top" id="courses_table1">
         <div class="column1">
@@ -129,9 +133,10 @@
         </div>
     </section>
         
-<!-- table 2 -->
+<!-- 
        
     <section class="courses_table courses_border_top" id="courses_table2">
+        <!--   take out 
         <div class="column1">
             <p class="courses_underline" id="courses_subtitle2">
                 <span class="sold_out">SOLD OUT &nbsp;</span>Javascript for Beginners - Starts April 4, 2016
@@ -144,7 +149,7 @@
         </div>
         
 <!-- need to redo these columns because found out when doing media query some were in one p tag instead of separated ones for each line -->
-        
+        <!-- 
         <div class="column2">
             <p>
                 <span class="courses_bold courses_position_top">
@@ -158,6 +163,9 @@
                 May 11
             </p>
         </div>
+        
+    -->    
+    <!-->
         <div class="column3 courses_column_Monday">
             <p>
                 <span  class="courses_bold">
@@ -192,7 +200,11 @@
                 </a>
             </p>
         </div>
+        
+    
         </section>
+        
+               -->
         
 <!-- table 3 -->
         <section class="courses_table courses_border_top">
@@ -219,6 +231,8 @@
                 May 11
             </p>
         </div>
+        
+        <!-- sold out  
         <div class="column3 courses_column_Monday">
             <p>
                 <span  class="courses_bold">
@@ -229,6 +243,7 @@
                 6:00p - 9:00p
             </p>
         </div>
+        -->
         <div class="column4">
             <p>
                 <span class="courses_bold">
@@ -342,6 +357,8 @@
                 May 11
             </p>
         </div>
+        
+<!--
         <div class="column3 courses_column_Monday">
             <p>
                 <span  class="courses_bold">
@@ -352,6 +369,8 @@
                 6:00p - 9:00p
             </p>
         </div>
+        
+        -->
         <div class="column4">
             <p>
                 <span class="courses_bold">
