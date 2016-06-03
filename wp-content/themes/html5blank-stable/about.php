@@ -61,7 +61,7 @@
                   
                  </div>
                        
-  -->                     
+ -->
                        
                        
                         <?php query_posts('post_type=about_us'); ?>
