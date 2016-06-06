@@ -10,9 +10,13 @@
             </p>
         </div>
         
+        
+        
 <!-- main section includes all the workshop details -->
         
     <main id="workshops_main">
+        <div class="banner"><a class="stem" href="http://geekwiseacademy.com/summer-camp-2016">Click here to Checkout our Stem Summer Programs</a> </div>
+        
         <div>
             <p>
                <span class="workshops_font_weight workshops_underline workshops_font_family">

@@ -167,9 +167,10 @@ h1{
 .about_what{
    width: 46%;
    float: left;
-   height: 50%;
+    height:45em; 
    color: #fff;
    font-size: 1em;
+   font-weight: 100;
    padding-left: 35px;
    line-height: 2;
    font-family:"lato",sans-serif;
@@ -400,6 +401,7 @@ header nav ul li a span{
     position: relative;
     top:2rem;
     text-align: center;
+    background-color: #7a1501;
 }
     
     .nav_div{
@@ -556,6 +558,20 @@ footer{
     text-align: center;
 }
 
+.banner{
+    margin-top: 15px;
+    padding: 15px;
+    border-radius:4px;
+    font-size: 1.6em;
+    background-color: #7a1501;
+    text-align: center;
+
+}
+
+.stem{
+    color: #F9DA0C;
+}
+
 #courses_main div p{
     text-align: left;
     text-transform: none;
@@ -702,6 +718,7 @@ footer{
     
     #courses_main{
         width:98%;
+    
     }
     .courses_enroll{
         width:9rem
@@ -850,6 +867,8 @@ footer{
 }
 #workshops_main div{
     width:100%;
+    margin-top: 15px;
+    padding: 10px;
     height:auto;
     display:inline-block;
 }
@@ -1306,10 +1325,9 @@ footer{
 #the_team{
     width:auto;
     float:none;
-    font-family: franchise;
+    font-family: 'Lato';
     font-size: 5rem;
     position:relative;
-    top:-5rem;
 }
 
 
@@ -1375,6 +1393,8 @@ footer{
 }
 .pictures img{
     width: auto;
+
+    
 }
 
 .span_font{
@@ -1453,7 +1473,7 @@ footer{
         width:100%;
     }
     .team_footer{
-        height:auto;
+        height:65%;
         background-color:#7A1501;
     }
 #pictures_div p{
@@ -1466,7 +1486,9 @@ footer{
 
 .pictures img{
     width: auto;
-    display:inline-block;
+    display:block;
+    text-align: center;
+    
     
 }
 
@@ -1669,7 +1691,7 @@ footer{
 }
 
 #contact_image{
-    background-image: url(http://i.imgur.com/0J7qpk8.jpg);
+    background-image: url(http:/i.imgur.com/0J7qpk8.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
@@ -1686,7 +1708,7 @@ footer{
     position:relative;
     top:20rem;
     left:2rem;
-    background-color:white;
+
 }
 
 #bitwise{

@@ -11,6 +11,8 @@
         </div>
         
     <main id="courses_main">
+        
+        <div class="banner"><a class="stem" href="http://geekwiseacademy.com/summer-camp-2016">Click here to Checkout our Stem Summer Programs</a> </div>
 
         <div>
             <p>

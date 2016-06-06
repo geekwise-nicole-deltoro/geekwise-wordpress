@@ -10,12 +10,11 @@
 	<link href="//db.onlinewebfonts.com/c/e5f2f90ef20309de329a7d174c3d2245?family=Franchise" rel="stylesheet" type="text/css"/>
     <title>Geekwise Academy | Workshops</title>
 </head>
- 
-   
+
 <!-- copied header nav bar menu from contact page -->
    
     <div id="margin_top">
-        <a class="signup_link team_signup" href="/index.php?page_id=16"><span>sign up</span></a>
+        <a class="signup_link team_signup" href="/index.php?page_id=12"><span>sign up</span></a>
     </div>
     <header class="contact_header" id="workshops_header">
         <nav>
@@ -44,7 +43,7 @@
                
                <div class="nav_div team_nav_div" id="nav_background">
                     <li class="contact_about">
-                        <a href="/index.php?page_id=18">
+                        <a href="/index.php?page_id=4">
                             <span class="contact_hover ">
                                 about
                             </span>
@@ -71,21 +70,21 @@
                         </a>
                     </li>
                     <li class="contact_team">
-                        <a href="/index.php?page_id=12">
+                        <a href="/index.php?page_id=14">
                             <span class="contact_hover contact_color">
                                 team
                             </span>
                         </a>
                     </li>
                     <li class="contact_contact">
-                        <a class="contact_color" id="workshops_white_color" href="/index.php?page_id=14">    
+                        <a class="contact_color" id="workshops_white_color" href="/index.php?page_id=16">    
                             <span class="contact_hover">
                                 contact
                             </span>
                         </a>
                     </li>
                     <li class="added_signup">
-                        <a href="/index.php?page_id=16">
+                        <a href="/index.php?page_id=12">
                             <span>
                                 sign up
                             </span>
