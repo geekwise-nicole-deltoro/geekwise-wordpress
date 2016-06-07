@@ -233,6 +233,19 @@ main div p{
     font-size: 4.1rem
 }
 
+.about_button{
+    background-color: #F9DA0C;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    padding: 15px 12px 15px 10px;
+    font-size: 2.5em;
+    text-align: center;
+    color: #7a1501;
+    margin-right:25%;
+    margin-left: 20%;
+}
+
 #dropdown{
     display: none;
 }

@@ -75,7 +75,7 @@
     </section>
         
 
-   
+   <!--
     <section class="courses_table courses_border_top" id="courses_table1">
         <div class="column1">
             <p class="courses_underline" id="courses_subtitle1">
@@ -135,8 +135,8 @@
         </div>
     </section>
         
- 
-       
+ -->
+    <!--   
     <section class="courses_table courses_border_top" id="courses_table2">
     
         <div class="column1">
@@ -149,8 +149,7 @@
                 </i>
             </p>
         </div>
-        
-<!-- need to redo these columns because found out when doing media query some were in one p tag instead of separated ones for each line -->
+    
          
         <div class="column2">
             <p>
@@ -206,7 +205,7 @@
     
         </section>
         
-               
+           -->    
         
 <!-- table 3 -->
         <section class="courses_table courses_border_top">

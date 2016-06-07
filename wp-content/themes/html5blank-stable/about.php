@@ -17,7 +17,11 @@
                    technology skill. Fast.
                </p>
            </div>
+
+
           </div>
+          
+            <button class="about_button" type="button">sign up!</button>  
    </main>
    <!--                not use            
    <footer class="about_footer">
@@ -62,7 +66,7 @@
                  </div>
                        
  -->
-                       
+     
                        
                         <?php query_posts('post_type=about_us'); ?>
                    
