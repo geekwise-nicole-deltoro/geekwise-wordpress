@@ -19,7 +19,7 @@
             <ul>
                <div class="icon_div">
                 <li id="icon">
-                    <a href="/index.php?p=25">
+                    <a href="/index.php?p=4">
                         <img src="http://i.imgur.com/sCkxjbZ.png" id="icon_image">
                     </a>
                 </li>
@@ -36,21 +36,21 @@
                
                <div class="nav_div team_nav_div" id="nav_background">
                 <li class="contact_about">
-                     <a href="/index.php?page_id=4">
+                     <a href="/index.php?page_id=6">
                         <span class="contact_hover ">
                             about
                         </span>
                     </a>
                 </li>
                 <li class="contact_courses">
-                   <a href="/index.php?page_id=6">
+                   <a href="/index.php?page_id=8">
                         <span class="contact_hover ">
                             courses
                         </span>
                     </a>
                 </li>
                 <li class="contact_workshops">
-                    <a href="/index.php?page_id=8">
+                    <a href="/index.php?page_id=14">
                         <span class="contact_hover">
                             workshops
                         </span>
@@ -64,14 +64,14 @@
                     </a>
                 </li>
                 <li class="contact_team">
-                    <a href="/index.php?page_id=14">
+                    <a href="/index.php?page_id=16">
                         <span class="contact_hover contact_color">
                             team
                         </span>
                     </a>
                 </li>
                 <li class="contact_contact">
-                    <a class="contact_active contact_color" href="/index.php?page_id=16">
+                    <a class="contact_active contact_color" href="/index.php?page_id=18">
                         <span class="contact_hover">
                             contact
                         </span>

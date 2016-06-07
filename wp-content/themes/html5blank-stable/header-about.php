@@ -18,7 +18,7 @@
             <ul>
                <div class="icon_div">
                 <li id="icon">
-                    <a href="/index.php?p=25">
+                    <a href="/index.php?p=4">
                         <img src="http://i.imgur.com/sCkxjbZ.png" id="icon_image">
                     </a>
                 </li>
@@ -29,21 +29,21 @@
                    <input type="checkbox" id="dropdown">
                <div class="nav_div" id="about_div_navbar">
                 <li>
-                    <a class="active" href="/index.php?page_id=4">
+                    <a class="active" href="/index.php?page_id=6">
                         <span>
                             about
                         </span>
                     </a>
                 </li>
                 <li id="courses">
-                     <a href="/index.php?page_id=6">
+                     <a href="/index.php?page_id=8">
                         <span>
                             courses
                         </span>
                     </a>
                 </li>
                 <li id="workshops">
-                    <a href="/index.php?page_id=8">
+                    <a href="/index.php?page_id=14">
                         <span>
                             workshops
                         </span>
@@ -57,14 +57,14 @@
                     </a>
                 </li>
                 <li id="team">
-                    <a href="/index.php?page_id=14">
+                    <a href="/index.php?page_id=16">
                         <span>
                             team
                         </span>
                     </a>
                 </li>
                 <li id="contact">
-                    <a href="/index.php?page_id=16">
+                    <a href="/index.php?page_id=18">
                         <span>
                             contact
                         </span>

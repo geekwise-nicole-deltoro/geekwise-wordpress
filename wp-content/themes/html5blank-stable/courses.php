@@ -401,7 +401,7 @@
     <footer class="workshops_footer">
         <div>
             <p>
-               <a href="/index.php?page_id=16">
+               <a href="/index.php?page_id=12">
                    <span>
                        SEATING IS LIMITED, SIGN UP TODAY
                     </span>

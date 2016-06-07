@@ -12,12 +12,12 @@
                  <img src="http://i.imgur.com/9rpUPiI.png" id="bitwise"> 
               </p>
               <p class="contact_info dif_color">
-                  700 Van Ness Avenue
+                  700 Van Ness Ave
               </p>
               <p class="contact_info dif_color">
                   Fresno, California 93721
               </p>
-            
+             
               <p class="contact_info email">
                   <a href="#"><i>tsolis@bitwiseindustries.com</i></a> 
               </p>

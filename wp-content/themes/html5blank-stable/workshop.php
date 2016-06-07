@@ -104,7 +104,7 @@
     <footer class="workshops_footer">
         <div>
             <p>
-               <a href="/index.php?p=16">
+               <a href="/index.php?p=12">
                    <span>
                        SEATING IS LIMITED, SIGN UP TODAY
                     </span>

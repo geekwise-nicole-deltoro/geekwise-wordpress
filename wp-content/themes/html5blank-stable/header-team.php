@@ -28,7 +28,7 @@
                 
 <!-- this is the geekwise icon on the header -->
                    
-                    <a href="/index.php?p=25">
+                    <a href="/index.php?p=4">
                         <img src="http://i.imgur.com/sCkxjbZ.png" id="icon_image">
                     </a>
                 </li>
@@ -45,21 +45,21 @@
               
                <div class="nav_div team_nav_div">
                 <li class="about">
-                    <a href="/index.php?page_id=4">
+                    <a href="/index.php?page_id=6">
                         <span>
                             about
                         </span>
                     </a>
                 </li>
                 <li class="courses">
-                    <a href="/index.php?page_id=6">
+                    <a href="/index.php?page_id=8">
                         <span>
                             courses
                         </span>
                     </a>
                 </li>
                 <li class="workshops">
-                    <a href="/index.php?page_id=8">
+                    <a href="/index.php?page_id=14">
                         <span>
                             workshops
                         </span>
@@ -73,14 +73,14 @@
                     </a>
                 </li>
                 <li class="team">
-                    <a class="active" href="/index.php?page_id=14">
+                    <a class="active" href="/index.php?page_id=16">
                         <span>
                             team
                         </span>
                     </a>
                 </li>
                 <li class="contact">
-                    <a href="/index.php?page_id=16">
+                    <a href="/index.php?page_id=18">
                         <span>
                             contact
                         </span>
