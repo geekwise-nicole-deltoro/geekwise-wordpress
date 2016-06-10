@@ -1028,6 +1028,7 @@ footer{
     display:inline-block;
     text-align:left;
     width:90%;
+    font-size: .9em;
 }
 
 /* added extra footer to make it look like the is a space between the cohort label and the bottom of page, but it was breaking too much so it was greyed out.  may or may not use it again. fixed it by adding margin bottom to second cohort label */
@@ -1655,8 +1656,9 @@ footer{
     font-size: 2rem;
     width:100%;
     text-align:center;
-    font-size:1rem;
+    font-size:1.9em;
     line-height:4rem;
+    font-family: ciria;
 }
 .contact_info a{
     text-decoration: none;
