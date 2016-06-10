@@ -15,7 +15,7 @@
 <!-- main section includes all the workshop details -->
         
     <main id="workshops_main">
-        <div class="banner"><a class="stem" href="http://geekwiseacademy.com/summer-camp-2016">Click here to Checkout our Stem Summer Programs</a> </div>
+        <div class="banner"><a href="http://geekwiseacademy.com/summer-camp-2016">Click here to Checkout our Stem Summer Programs</a> </div>
         
         <div>
             <p>
