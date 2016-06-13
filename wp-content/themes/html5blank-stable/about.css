@@ -526,6 +526,7 @@ footer{
 
 .stem{
     color: #F9DA0C;
+   text-decoration: none;
 }
 
 
@@ -833,6 +834,11 @@ footer{
     font-size:2.2rem
 }
 
+.workshops_stem{
+    color: #F9DA0C;
+    text-decoration: none;
+}
+
 .workshops_underline{
     border-bottom: 1px solid grey;
     width:100%;
@@ -1028,7 +1034,7 @@ footer{
     display:inline-block;
     text-align:left;
     width:90%;
-    font-size: .9em;
+    font-size:2px;
 }
 
 /* added extra footer to make it look like the is a space between the cohort label and the bottom of page, but it was breaking too much so it was greyed out.  may or may not use it again. fixed it by adding margin bottom to second cohort label */
@@ -1573,7 +1579,7 @@ footer{
 .contact_about > a{
     color:white;
     position: relative;
-    top:-.8rem;
+    top: 1.1em;
 }
 .contact_courses > a{
     color:white;
@@ -1621,10 +1627,11 @@ footer{
 }
 .contact_hover{
     position: relative;
-    top:2.5rem;
+    top:5rem;
 }
 .contact_hover:hover{
     color:#F9DA0C;
+    top: inherit;
 }
 
 #contact_image{
@@ -1653,11 +1660,11 @@ footer{
 }
 .contact_info{
     display:inline-block;
-    font-size: 2rem;
+    font-size: 2.3rem;
     width:100%;
     text-align:center;
-    font-size:1.9em;
-    line-height:4rem;
+    font-size:2.3em;
+    line-height:2rem;
     font-family: ciria;
 }
 .contact_info a{
